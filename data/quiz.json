@@ -1,0 +1,35 @@
+{
+  "title": "Найди свой стиль",
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Что ближе по настроению?",
+      "type": "single",
+      "options": [
+        { "id": "q1a", "label": "Минимализм", "image": "/images/minimal.webp", "scores": { "minimal": 2 } },
+        { "id": "q1b", "label": "Ярко и смело", "image": "/images/bold.webp", "scores": { "bold": 2 } },
+        { "id": "q1c", "label": "Уют и тепло", "image": "/images/cozy.webp", "scores": { "cozy": 2 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "title": "Выбери палитру",
+      "type": "single",
+      "options": [
+        { "id": "q2a", "label": "Ч/б + серый", "image": "/images/palette-minimal.webp", "scores": { "minimal": 2 } },
+        { "id": "q2b", "label": "Неон/контраст", "image": "/images/palette-bold.webp", "scores": { "bold": 2 } },
+        { "id": "q2c", "label": "Пастель/земля", "image": "/images/palette-cozy.webp", "scores": { "cozy": 2 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "title": "Что поставим в приоритет?",
+      "type": "single",
+      "options": [
+        { "id": "q3a", "label": "Функциональность", "image": "/images/func.webp", "scores": { "minimal": 2 } },
+        { "id": "q3b", "label": "Эмоция/вау", "image": "/images/wow.webp", "scores": { "bold": 2 } },
+        { "id": "q3c", "label": "Комфорт", "image": "/images/comfort.webp", "scores": { "cozy": 2 } }
+      ]
+    }
+  ]
+} 
