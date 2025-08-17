@@ -21,7 +21,7 @@ export default function Page() {
           <h3 className="font-semibold">Регистрация</h3>
           <p className="text-white/70 text-sm mt-2">Оставь имя и email — продолжим в приложении.</p>
         </div>
-      </div>
+    </div>
     </section>
   );
 }

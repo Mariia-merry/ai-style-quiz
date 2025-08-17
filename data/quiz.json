@@ -1,35 +1,68 @@
 {
-  "title": "Найди свой стиль",
+  "title": "Определи свой стиль",
   "questions": [
     {
-      "id": "q1",
-      "title": "Что ближе по настроению?",
+      "id": "style_base",
+      "title": "1. Какой стиль одежды вам ближе всего?",
       "type": "single",
       "options": [
-        { "id": "q1a", "label": "Минимализм", "image": "/images/minimal.webp", "scores": { "minimal": 2 } },
-        { "id": "q1b", "label": "Ярко и смело", "image": "/images/bold.webp", "scores": { "bold": 2 } },
-        { "id": "q1c", "label": "Уют и тепло", "image": "/images/cozy.webp", "scores": { "cozy": 2 } }
+        { "id": "classic",   "label": "Классический (пиджаки, брюки, рубашки, платья-футляры)" },
+        { "id": "casual",    "label": "Кэжуал (удобные джинсы, свитшоты, футболки, кроссовки)" },
+        { "id": "sport",     "label": "Спортивный (худи, легинсы, oversize, удобные кроссовки)" },
+        { "id": "romantic",  "label": "Романтичный (кружево, пастельные тона, цветочный принт)" },
+        { "id": "boho",      "label": "Бохо (свободные силуэты, этно-узоры, многослойность)" },
+        { "id": "street",    "label": "Уличный стиль (яркие акценты, смелые принты)" },
+        { "id": "minimal",   "label": "Минимализм (чистые линии, однотонные вещи)" },
+        { "id": "glam",      "label": "Гламур (блеск, вечерние образы)" }
       ]
     },
     {
-      "id": "q2",
-      "title": "Выбери палитру",
+      "id": "palette",
+      "title": "2. Какая цветовая гамма вам нравится?",
       "type": "single",
       "options": [
-        { "id": "q2a", "label": "Ч/б + серый", "image": "/images/palette-minimal.webp", "scores": { "minimal": 2 } },
-        { "id": "q2b", "label": "Неон/контраст", "image": "/images/palette-bold.webp", "scores": { "bold": 2 } },
-        { "id": "q2c", "label": "Пастель/земля", "image": "/images/palette-cozy.webp", "scores": { "cozy": 2 } }
+        { "id": "neutral", "label": "Нейтральные (бежевый, серый, белый, черный)" },
+        { "id": "pastel",  "label": "Пастельные (розовый, мятный, лавандовый)" },
+        { "id": "bright",  "label": "Яркие (красный, изумрудный, электрик, фуксия)" },
+        { "id": "dark",    "label": "Темные и глубокие (бордо, темно-синий, хаки, черный)" },
+        { "id": "earthy",  "label": "Природные (оливковый, терракота, песочный, коричневый)" }
       ]
     },
     {
-      "id": "q3",
-      "title": "Что поставим в приоритет?",
+      "id": "fit",
+      "title": "3. Какой крой одежды вы предпочитаете?",
       "type": "single",
       "options": [
-        { "id": "q3a", "label": "Функциональность", "image": "/images/func.webp", "scores": { "minimal": 2 } },
-        { "id": "q3b", "label": "Эмоция/вау", "image": "/images/wow.webp", "scores": { "bold": 2 } },
-        { "id": "q3c", "label": "Комфорт", "image": "/images/comfort.webp", "scores": { "cozy": 2 } }
+        { "id": "slim",     "label": "Облегающий (подчеркивающий фигуру)" },
+        { "id": "oversize", "label": "Свободный (оверсайз, широкие брюки, платья-мешки)" },
+        { "id": "regular",  "label": "Умеренный (не слишком приталенный, но и не мешковатый)" },
+        { "id": "mix",      "label": "Комбинированный (облегающий верх + свободный низ)" }
+      ]
+    },
+    {
+      "id": "prints",
+      "title": "4. Как вы относитесь к принтам и узорам?",
+      "type": "single",
+      "options": [
+        { "id": "solid",     "label": "Однотонные вещи (без принтов)" },
+        { "id": "geometry",  "label": "Геометрия (полоска, клетка, горох)" },
+        { "id": "floral",    "label": "Цветочные/растительные" },
+        { "id": "animal",    "label": "Анималистичные" },
+        { "id": "abstract",  "label": "Графика/абстракция" }
+      ]
+    },
+    {
+      "id": "mood",
+      "title": "5. Какой образ вас вдохновляет?",
+      "type": "single",
+      "options": [
+        { "id": "minimal",  "label": "Минимализм (The Row, Jil Sander)" },
+        { "id": "glam",     "label": "Гламур (Hollywood-вечерний)" },
+        { "id": "cozy",     "label": "Уютный сканди" },
+        { "id": "bold",     "label": "Смелый/экспериментальный (Billie Eilish, Harry Styles)" },
+        { "id": "biz",      "label": "Деловой шик (Victoria Beckham, Meghan Markle)" }
       ]
     }
   ]
-} 
+}
+
